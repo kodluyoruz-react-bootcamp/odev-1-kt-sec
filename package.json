@@ -1,0 +1,25 @@
+{
+  "name": "odev-1-kt-sec",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js",
+    "build": "sucrase ./src -d ./dist --transforms imports"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kodluyoruz-react-bootcamp/odev-1-kt-sec.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kodluyoruz-react-bootcamp/odev-1-kt-sec/issues"
+  },
+  "homepage": "https://github.com/kodluyoruz-react-bootcamp/odev-1-kt-sec#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.6",
+    "sucrase": "^3.16.0"
+  }
+}
